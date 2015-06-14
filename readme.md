@@ -1,5 +1,7 @@
-## uvCharts
+
 uvCharts is a JavaScript charting library which uses [d3](http://mbostock.github.com/d3/ "d3") underneath to build most of the basic charts. To learn more about uvCharts and how to use it, read the [wiki](http://www.github.com/imaginea/uvCharts/wiki/Home) page.
+
+## uvCharts-v1.0.0
 
 Charts supported at the current moment are:
 
@@ -31,7 +33,7 @@ This guide is to help you begin using uvCharts to build charts on the web. uvCha
 ### Adding the library to your page
 d3.js being the only dependency for uvCharts, has to be included along with your other scripts before harnessing the power of uvCharts on your webpages. d3.js is available on cdn henceforth you can directly include it using the following code in your webpage.
 
-	<script type="text/javascript" src-"http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.2.2/d3.v3.min.js"></script>
 	
 Download the latest version of uvCharts (either minified or unminified) from ```http://www.github.com/imaginea/uvCharts/dist``` and include it too in your webpage.
 
@@ -114,7 +116,7 @@ var chart = uv.chart ('Bar', graphdef, {
 })
 
 ```
-A bit more clear, isn't it now. You can read more about the configuration options, there defaults, ranges, definitions here.
+A bit more clear, isn't it now. You can read more about the configuration options, their defaults, ranges, definitions here.
 
 Wait a second, we've a lot more open source projects at Imaginea, lets compare their usage with uvCharts across the same years.
 
